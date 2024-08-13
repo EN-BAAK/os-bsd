@@ -1,0 +1,92 @@
+@import './SASS/Helpers/varaibles';
+@import './SASS/Helpers/mixins';
+//  Float
+$float-left: right;
+$float-right: left;
+
+//  Text Align
+$text-right: left;
+$text-left: right;
+
+
+/* Start Header */
+.header {
+    .logo {
+        @media #{$minMedium} {
+            width: 30%;
+            float: $float-left;
+            text-align: $text-left;
+        }
+        .the-toggler {
+            left: 15px;
+            right: auto;
+        }
+    }
+    .navbar {
+        @media #{$minMedium} {
+            float: $float-left;
+        }
+        li
+        {
+            float: $float-left;
+            text-align: center;
+        }
+    }
+}
+/* End Header */
+/* Start Services */
+.services {
+    .service-box {
+        float: $float-left;
+    }
+}
+/* End Services */
+/* Start Player */
+.players {
+    .player-box {
+        @media #{$minSmall} {
+            float: $float-left;
+        }
+        @media #{$minMedium} {
+            text-align: $text-left;
+        }
+    }
+}
+/* End Player */
+/* Start Lorem */
+.lorem-ipsum {
+    .lorem-box {
+        float: $float-left;
+    }
+}
+/* End Lorem*/
+/* Start Footer */
+.footer {
+    .gallery, .info, .contact {
+        float: $float-left;
+    }
+    .gallery {
+        .img-box {
+            img {
+                @media #{$minSmall} {
+                    float: $float-left;
+                }
+            }
+            .text {
+                @media #{$minSmall} {
+                    float: $float-left;
+                }
+            }
+        }
+    }
+    .copyright {
+    .text,
+    .author {
+        float: $float-left;
+    }
+    .author {
+        text-align: $text-right;
+    }
+}
+}
+/* End Footer */

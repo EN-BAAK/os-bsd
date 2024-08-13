@@ -1,0 +1,71 @@
+/* Start Header */
+@media (min-width: 992px) {
+  .header .logo {
+    width: 30%;
+    float: right;
+    text-align: right;
+  }
+}
+.header .logo .the-toggler {
+  left: 15px;
+  right: auto;
+}
+@media (min-width: 992px) {
+  .header .navbar {
+    float: right;
+  }
+}
+.header .navbar li {
+  float: right;
+  text-align: center;
+}
+
+/* End Header */
+/* Start Services */
+.services .service-box {
+  float: right;
+}
+
+/* End Services */
+/* Start Player */
+@media (min-width: 768px) {
+  .players .player-box {
+    float: right;
+  }
+}
+@media (min-width: 992px) {
+  .players .player-box {
+    text-align: right;
+  }
+}
+
+/* End Player */
+/* Start Lorem */
+.lorem-ipsum .lorem-box {
+  float: right;
+}
+
+/* End Lorem*/
+/* Start Footer */
+.footer .gallery, .footer .info, .footer .contact {
+  float: right;
+}
+@media (min-width: 768px) {
+  .footer .gallery .img-box img {
+    float: right;
+  }
+}
+@media (min-width: 768px) {
+  .footer .gallery .img-box .text {
+    float: right;
+  }
+}
+.footer .copyright .text,
+.footer .copyright .author {
+  float: right;
+}
+.footer .copyright .author {
+  text-align: left;
+}
+
+/* End Footer *//*# sourceMappingURL=website-rtl.css.map */
